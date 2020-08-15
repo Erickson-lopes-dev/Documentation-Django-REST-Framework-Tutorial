@@ -123,6 +123,6 @@ class SnippetGenericsList(generics.ListCreateAPIView):
 
 # View Baseada em classes com generics
 # importe os generics que irá utilizar
-class SnippetGenericsDetail(generics.RetrieveUpdateDestroyAPIView):
+class SnippentGenericsDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Snippet.objects.all()
     serializer_class = SnippetSerializer
