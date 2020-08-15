@@ -1,0 +1,32 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W391" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="blog.models.Post.objects" />
+          <option value="website.models.Post.objects" />
+          <option value="api.models.Category.objects" />
+          <option value="api.models.Product.objects" />
+          <option value="cursos.models.Curso.objects" />
+          <option value="cursos.models.Avalicacao.objects" />
+          <option value="api_blog.models.Phrases.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
