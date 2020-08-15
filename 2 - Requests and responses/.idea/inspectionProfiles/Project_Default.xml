@@ -25,6 +25,8 @@
           <option value="cursos.models.Curso.objects" />
           <option value="cursos.models.Avalicacao.objects" />
           <option value="api_blog.models.Phrases.objects" />
+          <option value="snippets.models.Snippet.DoesNotExist" />
+          <option value="snippets.models.Snippet.objects" />
         </list>
       </option>
     </inspection_tool>
